@@ -6,22 +6,20 @@
 # imprimir_mensaje()
 # imprimir_mensaje()
 
+def conversacion(mensaje):
+    print("Hola")
+    print("Cómo estas")
+    print(mensaje)
+    print("Adios")
+    
+
 
 opcion = int(input("Elige una opción (1, 2, 3): "))
 if opcion == 1:
-    print("Hola")
-    print("Cómo estas")
-    print("Elegiste la opción 1")
-    print("Adios")
+    conversacion("Egiste la opcion 1")
 elif opcion == 2:
-    print("Hola")
-    print("Cómo estas")
-    print("Elegiste la opción 2")
-    print("Adios")
+    conversacion("Egiste la opcion 2")
 elif opcion == 3:
-    print("Hola")
-    print("Cómo estas")
-    print("Elegiste la opción 3")
-    print("Adios")
+    conversacion("Egiste la opcion 3")
 else:
     print("Escribe una opción correcta")
