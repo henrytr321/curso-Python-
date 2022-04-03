@@ -1,5 +1,5 @@
 def conversor(tipo_pesos, valor_dolar):
-    pesos = input("¿Cantos pesos" + tipo_pesos +  "tienes?")
+    pesos = input("¿Cantos pesos" + tipo_pesos +  "tienes?: ")
     pesos = float(pesos)
     dolares = pesos / valor_dolar
     dolares = round(dolares, 2)
@@ -24,4 +24,3 @@ elif opcion == 3:
     conversor("Mexicanos",24)
 else:
     print("Ingresa una opcion correcta por favor: ")
-
